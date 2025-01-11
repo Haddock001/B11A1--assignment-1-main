@@ -337,7 +337,7 @@ tr{
 
 footer{
     background-color: white;
-    margin: 0px;
+    margin-right, margin-left: 0px;
     padding: 0px;
 }
 
