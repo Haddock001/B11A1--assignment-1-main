@@ -2,6 +2,7 @@
 
 body{
     background-color: #F5F5F5;
+    margin: 0px 160px 80px 160px;
 }
 
 /* shared styles */
@@ -37,6 +38,37 @@ body{
     color: rgba(14, 14, 14, 0.70);
 
 }
+
+.bold-dex{
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+select{
+    width: 152px;
+    height: 44px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(198, 228, 214, 1.00);
+    color: black;
+    font-family: "Fira Sans";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* colors */
+.blue{
+    background-color: rgba(84, 144, 245, 0.20);
+}
+.green{
+    background-color: rgba(198, 228, 214, 1.00);
+}
+.yellow{
+    background-color: rgba(247, 235, 207, 1.00);
+    
+}
 /* buttons */
 .banner-btn{
     width: 270px;
@@ -50,13 +82,42 @@ body{
     border-radius: 8px;
 }
 
+.btn-blue{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(84, 144, 245, 1.00);
+    border: none;
+    font-size: 16px;
+}
+
+.btn-green{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(9, 161, 92, 1.00);
+    font-size: 16px;
+    border: none;
+}
+
+.btn-yellow{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(255, 194, 57, 1.00);
+    font-size: 16px;
+    border: none;
+}
 /* banner styles */
 .banner{
     display: flex;
     justify-content: space-between;
     width: auto;
     height: 740px;
-    margin: 120px 160px 0px 160px;
+    margin: 120px 0px ;
     background-color: #C6E4D6;
     padding: 0px 60px 0px 60px;
     border-radius: 24px;
@@ -77,7 +138,7 @@ body{
 
 /* pillars styles */
 .pillars{
-    margin: 80px 160px 80px 160px;
+    margin: 80px 0px 80px 0px;
 }
 
 .pillar-content{
@@ -91,4 +152,60 @@ body{
     padding: 24px;
     background-color: white;
     border-radius: 16px;
+}
+
+/* vision styles */
+.vision-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.vision-point{
+    max-width: 410px;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.pm-quote{
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 48px 24px 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 0px 0px 24px;
+}
+
+/* table styles */
+.table-conatainer{
+    border-radius: 16px;
+    background-color: white;
+    padding: 32px;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+
+thead th{
+    text-align: left;
+}
+
+thead th:nth-child(2){
+    text-align: right;
+}
+
+td{
+    border: 1px solid black;
+    padding: 36px 24px 36px 24px;
+}
+
+tr{
+    max-width: 1280px;
 }
