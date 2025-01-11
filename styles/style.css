@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: #F5F5F5;
+}
+
+/* shared styles */
+.banner-title{
+    font-family: "Fira Sans";
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.secondery-subtitle{
+    font-family: "Fira Sans";
+    font-weight: medium;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.50);
+}
+
+.secondery-subtitle-bold{
+    font-family: "Fira Sans";
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.title{
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.dex{
+    font-family: "Fira Sans";
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.70);
+
+}
+/* buttons */
+.banner-btn{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    font-family: "Fira Sans";
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 740px;
+    margin: 120px 160px 0px 160px;
+    background-color: #C6E4D6;
+    padding: 0px 60px 0px 60px;
+    border-radius: 24px;
+}
+
+.banner-content{
+    width: 622px;
+    height: 325px;
+    margin: 117px 64px 117px 60px;
+    /* margin: 117px 60px 0px 60px; */
+}
+
+#banner-pfp{
+    width: 474px;
+    height: 400px;
+    margin: 120px 60px 80px 0px;
+}
+
+/* pillars styles */
+.pillars{
+    margin: 80px 160px 80px 160px;
+}
+
+.pillar-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillar{
+    max-width: 302px;
+    height: auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+}
